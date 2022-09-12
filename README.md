@@ -35,7 +35,9 @@ Using the SDK it's quite easy. An example of a GET call to the API is the follow
      # Using the auto_parser parameter, you can get the scraped site in JSON format.
      "auto_parser" => 1
     ); 
-print($client -> get('https://bing.com',$params));
+    
+  print($client -> get('https://bing.com',$params));
+ 
     }
     
  ```
