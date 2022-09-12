@@ -1,0 +1,7 @@
+{
+    "name": "webscrapingapi/php-sdk",
+    "description": "SDK for sending http requests written in php",
+    "require": {
+        "symfony/http-client": "^6.1"
+    }
+}
