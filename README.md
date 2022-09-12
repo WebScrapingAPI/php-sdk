@@ -39,6 +39,6 @@ Using the SDK it's quite easy. An example of a GET call to the API is the follow
     print($client -> get('https://bing.com',$params));
     }
  ```
-For more reference, you can check out multiple example here [here](https://github.com/aao056/php-sdk/blob/main/example/examples.php)
+For more reference, you can check out multiple examples here [here](https://github.com/aao056/php-sdk/blob/main/example/examples.php)
 
 For a better understanding of the parameters, please check out our [documentation](https://app.webscrapingapi.com/documentation/getting-started)
