@@ -21,16 +21,16 @@ namespace Examples {
         "foo" => "bar"
     );
 
-    //print($client -> get('https://httpbin.org/get')); // GET request example
+    //print($client->get('https://httpbin.org/get')); // GET request example
 
-    //print($client -> get('https://bing.com',$params)); // GET request with params example
+    //print($client->get('https://bing.com', $params)); // GET request with params example
      
-    //print($client -> get('https://httpbin.org/get',$params)); // GET request with params example
+    //print($client->get('https://httpbin.org/get', $params)); // GET request with params example
 
-    //print($client -> get('https://webscrapingapi.com',$params)); // GET request with params example
+    //print($client->get('https://webscrapingapi.com', $params)); // GET request with params example
 
-    //print($client -> get('https://httpbin.org/headers',[],$headers)); // GET request with headers example
+    //print($client->get('https://httpbin.org/headers', [], $headers)); // GET request with headers example
 
-    //print($client -> post('https://httpbin.org/post',[],[],$body)); // POST request with body example
+    //print($client->post('https://httpbin.org/post', [], [], $body)); // POST request with body example
 
 }
