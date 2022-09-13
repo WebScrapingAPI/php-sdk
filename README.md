@@ -2,11 +2,7 @@
 WebScrapingApi is an API that allows scraping websites while using rotating proxies to prevent bans. This SDK for PHP makes the usage of the API easier to implement in any project you have.
 
 # Installation
-Firstly make sure to have minimum-stability set to dev in your composer.json file
-```
-"minimum-stability": "dev"
-```
-Then run the following command in the main folder of your project:
+Run the following command in the main folder of your project:
 ```
 composer require webscrapingapi/php-sdk
 ```
