@@ -36,7 +36,7 @@ Using the SDK it's quite easy. An example of a GET call to the API is the follow
      "auto_parser" => 1
     ); 
     
-  print($client -> get('https://bing.com',$params));
+  print($client->get('https://bing.com', $params));
  
  }   
  ```
